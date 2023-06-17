@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import blackHeart from '../images/blackHeartIcon.svg';
-import whiteHeart from '../images/whiteHeartIcon.svg';
+import blackHeartIcon from '../images/blackHeartIcon.svg';
+import whiteHeartIcon from '../images/whiteHeartIcon.svg';
 
 function BtnFavorite({ id, type, nationality, category, alcoholicOrNot, name, image }) {
   const [isFavorite, setIsFavorite] = useState(false);
@@ -39,7 +39,7 @@ function BtnFavorite({ id, type, nationality, category, alcoholicOrNot, name, im
       onClick={ toggleFavorite }
     >
       <img
-        src={ isFavorite ? blackHeart : whiteHeart }
+        src={ isFavorite ? blackHeartIcon : whiteHeartIcon }
         alt="botão favoritar"
         data-testid="favorite-btn"
       />

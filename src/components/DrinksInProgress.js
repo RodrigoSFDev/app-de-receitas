@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom/cjs/react-router-dom.min';
 import copy from 'clipboard-copy';
 import shareIcon from '../images/shareIcon.svg';
-import Button from './Button';
 import BtnFavorite from './BtnFavorite';
+import Button from './Button';
 
 function DrinksInProgress() {
   const [drink, setDrink] = useState({});
