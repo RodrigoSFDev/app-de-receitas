@@ -105,7 +105,7 @@ function MealsInProgress() {
   };
 
   return (
-    <div>
+    <div className="tela-progress">
       <div>
         <img
           src={ meal.strMealThumb }

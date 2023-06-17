@@ -104,7 +104,7 @@ function DrinksInProgress() {
   };
 
   return (
-    <div>
+    <div className="tela-progress">
       <div>
         <img
           src={ drink.strDrinkThumb }
